@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "farinata:chickpeas"
+    }
+  ],
+  "processingTime": 30,
+  "results": [
+    {
+      "count": 2,
+      "item": "farinata:chickpea_flour"
+    },
+    {
+      "chance": 0.3,
+      "count": 1,
+      "item": "farinata:chickpea_flour"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 80,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "farinata:chickpeas"
+  },
+  "result": "farinata:roasted_chickpeas"
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chickpeas": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farinata:chickpeas"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_chickpeas"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farinata:chickpea_flour",
+      "farinata:roasted_chickpeas_from_campfire",
+      "farinata:roasted_chickpeas_from_smelting",
+      "farinata:roasted_chickpeas_from_smoking",
+      "farinata:create/chickpea_milling"
+    ]
+  }
+}

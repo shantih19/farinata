@@ -1,0 +1,28 @@
+{
+  "parent": "farinata:recipes/food/chickpea",
+  "criteria": {
+    "has_chickpea_flour": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farinata:chickpea_flour"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_chickpea_flour"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farinata:chickpea_slurry",
+      "farinata:create/chickpea_flour_water_mixing"
+    ]
+  }
+}

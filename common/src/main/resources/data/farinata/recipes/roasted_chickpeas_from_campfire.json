@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 120,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "farinata:chickpeas"
+  },
+  "result": "farinata:roasted_chickpeas"
+}

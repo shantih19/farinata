@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    },
+    {
+      "item": "farinata:chickpea_flour"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "farinata:chickpea_slurry"
+    }
+  ]
+}

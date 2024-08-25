@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "farinata:block/fluid/chickpea_slurry_still"
+  }
+}

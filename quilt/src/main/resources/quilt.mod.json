@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "farinata",
+    "version": "${version}",
+    "metadata": {
+      "name": "farinata",
+      "description": "Farinata",
+      "contributors": {
+        "shantih19": "Author"
+      },
+      "icon": "assets/farinata/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "xyz.shantih19.farinata.quilt.FarinataModQuilt"
+      ],
+      "client_init": [
+        "xyz.shantih19.farinata.quilt.client.FarinataModQuiltClient"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20.1"
+      },
+      {
+        "id": "architectury",
+        "version": ">=9.2.14"
+      }
+    ]
+  },
+  "mixin": [
+  ]
+}
